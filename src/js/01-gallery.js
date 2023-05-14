@@ -1,4 +1,3 @@
-// -----1-Adding SimpleLightbox, 2--Refactoring latest code-----------
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 // Add imports above this line
