@@ -21,7 +21,10 @@ form.addEventListener('submit', onSubmit);
 
 function onSubmit(event) {
   event.preventDefault();
-  if (!form.elements.message.value || !form.elements.email.value) {
+  if (
+    form.elements.message.value.trim() === '' ||
+    form.elements.email.value.trim() === ''
+  ) {
     alert('fill all fields, please');
   } else {
     setTimeout(() => {
